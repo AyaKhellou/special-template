@@ -148,9 +148,9 @@ buttons.forEach(button => {
 
             clearInterval(backgroundInterval);
 
-            landingPage.style.backgroundImage = `url('/pics/${imagesArr[ranInd]}')`;
+            landingPage.style.backgroundImage = `url('pics/${imagesArr[ranInd]}')`;
 
-            localStorage.setItem('backgroundImage', `url('/pics/${imagesArr[ranInd]}')`);
+            localStorage.setItem('backgroundImage', `url('pics/${imagesArr[ranInd]}')`);
 
             localStorage.setItem('background_Option',false);
             
