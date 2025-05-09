@@ -169,7 +169,7 @@ function randomBackground() {
         backgroundInterval = setInterval(() => {
     
             ranInd = Math.floor(Math.random() * imagesArr.length);
-            landingPage.style.backgroundImage = `url('/pics/${imagesArr[ranInd]}')`;
+            landingPage.style.backgroundImage = `url('pics/${imagesArr[ranInd]}')`;
         
         }, 10000);
     }
